@@ -12,6 +12,6 @@ s = socket.socket()
 s.connect(('127.0.0.1', 3001))
 
 #Send messages
-Inscription ={"matricules": ["17235"], "port": 8080, "name": "Mohamed"}
+Inscription ={"matricules": ["17236"], "port": 9090, "name": "AOUSJI Med Amine"}
 
 sendJSON(s,Inscription)
